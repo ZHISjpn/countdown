@@ -23,6 +23,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "15歳です";
+    document.getElementById("countdown").innerHTML = "15歳になりました。ありがとうございます。これからもよろしくお願いします。";
   }
 }, 1000);
